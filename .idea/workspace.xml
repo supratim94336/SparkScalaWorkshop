@@ -7,17 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da3b9486-12ac-4e9b-8067-0b81458f9735" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$1.class" afterPath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$2.class" afterPath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$3.class" afterPath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$4.class" afterPath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$loadMovieNames$1.class" afterPath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$loadMovieNames$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$.class" afterPath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/PopMovies$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/WordCounter$.class" afterPath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/WordCounter$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/WordWordCoOccurrence$.class" afterPath="$PROJECT_DIR$/classes/production/SparkScalaWorkshop/com/supra/scala/WordWordCoOccurrence$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/supra/scala/PopMovies.scala" afterPath="$PROJECT_DIR$/src/com/supra/scala/PopMovies.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/supra/scala/PopularMoviesDataSets.scala" afterPath="$PROJECT_DIR$/src/com/supra/scala/PopularMoviesDataSets.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -68,8 +57,8 @@
       <file leaf-file-name="PopularMoviesDataSets.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/supra/scala/PopularMoviesDataSets.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="58" column="45" lean-forward="true" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
               <folding>
                 <element signature="e#25#50#0" expanded="true" />
               </folding>
@@ -976,12 +965,12 @@
       <workItem from="1484907778437" duration="2930000" />
       <workItem from="1492584061441" duration="9869000" />
       <workItem from="1492638223101" duration="772000" />
-      <workItem from="1492639696301" duration="4193000" />
+      <workItem from="1492639696301" duration="4571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167687000" />
+    <option name="totallyTimeSpent" value="168065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1014,7 +1003,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24033931" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24033931" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1429,8 +1418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/supra/scala/PopularMoviesDataSets.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="58" column="45" lean-forward="true" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
           <folding>
             <element signature="e#25#50#0" expanded="true" />
           </folding>

@@ -19,8 +19,8 @@ object PopularMoviesDataSets extends java.io.Serializable{
     var movieNames: Map[Int, String] = Map()
     val lines = Source.fromFile("../SparkScalaWorkshop/data/ml-100k/u.item").getLines()
     for(line <- lines){
-      var fields = line.split('|')
-      if(fields.length > 1){
+      val fields = line.split('|')
+      if(fields.length > 1) {
         movieNames+= (fields(0).toInt -> fields(1))
       }
     }
@@ -32,7 +32,7 @@ object PopularMoviesDataSets extends java.io.Serializable{
   final case class Movie(movieId: Int)
 
   // Our main function where action happens
-  def main(args: Array[String]): Unit ={
+  def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
 
     // SparkSession instead of SparkContext for Data-sets and Data-frames
@@ -66,8 +66,7 @@ object PopularMoviesDataSets extends java.io.Serializable{
     val names = loadMovieNames()
 
     for(result <- top10){
-
-      // Finding movie names from it's Integer ID and count part of result in dataset is result(1)
+      // Finding movie names from it's Integer ID and count part of result in data set is result(1)
       println(names(result(0).asInstanceOf[Int]) + ": " + result(1))
     }
 
