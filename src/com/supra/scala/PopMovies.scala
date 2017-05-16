@@ -1,9 +1,8 @@
 package com.supra.scala
-import java.nio.charset.CodingErrorAction
 
-import org.apache.spark._
-import org.apache.spark.SparkContext._
+import java.nio.charset.CodingErrorAction
 import org.apache.log4j._
+import org.apache.spark._
 
 import scala.io.{Codec, Source}
 /**
@@ -78,7 +77,8 @@ object PopMovies {
     // Sort by key
     // 1, 9
     // 1, 10 ...
-    val sortedResults = flippedResults.sortByKey()
+    // true for ascending and false for descending
+    val sortedResults = flippedResults.sortByKey(false)
 
     // Match movieNames and results
     // Star Wars, 1

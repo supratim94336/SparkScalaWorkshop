@@ -1,7 +1,7 @@
 package com.supra.scala
+
 import org.apache.log4j._
 import org.apache.spark.sql.SparkSession
-
 
 /**
   * Created by Supra on 15/01/2017.
@@ -47,7 +47,7 @@ object SparkSQL extends java.io.Serializable {
 
     schemaPeople.printSchema()
 
-    // This line converts structured data to a table named people
+    // This line converts structured data to a table named people like a SQl table in a database
     schemaPeople.createOrReplaceTempView("people")
 
     val teenagers = spark.sql("SELECT * FROM people WHERE age>=13 AND age<=19")
